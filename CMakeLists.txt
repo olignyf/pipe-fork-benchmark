@@ -29,7 +29,7 @@ ADD_EXECUTABLE(pipetest
 )
 
 # Build unit cases
-ADD_EXECUTABLE(forkbun-reopen
+ADD_EXECUTABLE(pipetest-reopen
 	pipetest-reopen.c
 )
 

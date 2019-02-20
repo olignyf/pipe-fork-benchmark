@@ -51,7 +51,7 @@ int main(void)
       char *argv[5];
       argv[0] = "time";
       argv[1] = "-v";
-      argv[2] = "./forkbun";
+      argv[2] = "./pipetest";
       argv[3] = NULL;
       execvp("/usr/bin/time", argv);
       printf("failed to execvp, errno %d\n", errno);

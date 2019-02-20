@@ -15,7 +15,8 @@ Since benchmarker uses [CMake](http://www.cmake.org/), building the library is
 fairly easy
 
     $ git clone https://github.com/olignyf/pipe-fork-benchmark.git
-    $ mkdir pipe-fork-benchmark/build; cd pipe-fork-benchmark/build
+    $ cd pipe-fork-benchmark
+    $ mkdir build; cd build
     $ cmake -DCMAKE_BUILD_TYPE=Release ..
     $ make
     $ ./benchmarker
